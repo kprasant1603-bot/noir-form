@@ -1,0 +1,55 @@
+import { Article } from '../types';
+
+export const ARTICLES: Article[] = [
+  {
+    id: 'shape-of-tomorrow',
+    title: 'The Shape of Tomorrow',
+    subtitle: 'How architectural CAD precision and computational geometry are replacing traditional tailoring.',
+    category: 'Design & Form',
+    date: 'OCT 2026',
+    readTime: '4 MIN READ',
+    author: 'KAI CHEN // HEAD OF DESIGN',
+    excerpt: 'Streetwear was never meant to remain trapped in vintage nostalgia. We investigate how volumetric generative patterning reshapes the human silhouette.',
+    content: [
+      'Streetwear was never meant to remain trapped in twentieth-century vintage nostalgia. For decades, the industry recycled identical silhouettes—slight variations of hoodies, boxy tees, and sweatpants—changing only the printed graphics across the chest.',
+      'NOIR//FORM was conceived as a departure from that repetitive cycle. We approach apparel not as flat textiles, but as wearable architecture in motion. Every panel, dart, and seam is calculated using parametric CAD software to optimize volumetric drape while eliminating mechanical resistance against the body.',
+      'The result is an organic geometry that moves effortlessly between physical metropolitan streets and digital realms. It is fashion built for those who live between disciplines.',
+    ],
+    tags: ['Computational Design', 'Parametric Drape', 'Digital Fashion'],
+    heroImage: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'beyond-the-uniform',
+    title: 'Beyond the Ordinary Uniform',
+    subtitle: 'Deconstructing modern metropolitan subcultures and the demand for functional anonymity.',
+    category: 'Subculture',
+    date: 'OCT 2026',
+    readTime: '6 MIN READ',
+    author: 'ELENA VANCE // ANTHROPOLOGY',
+    excerpt: 'In an era of relentless algorithmic surveillance and hyper-visibility, technical clothing transforms into a shield of intentional obscurity.',
+    content: [
+      'In an era characterized by omnipresent algorithmic surveillance, facial scanning, and digital hyper-visibility, clothing takes on an urgent psychological role: intentional obscurity.',
+      'The NOIR//FORM aesthetic borrows from the shadow-dwellers of electronic music basements, brutalist architecture, and Tokyo cyberpunk culture. By stripping away loud primary colors and corporate typography, we return agency to the wearer.',
+      'Deep charcoal tones and matte non-reflective textiles do not seek approval from camera lenses. They create an aura of restrained authority. You wear the unseen, and in doing so, you reclaim your space.',
+    ],
+    tags: ['Counter-Culture', 'Functional Anonymity', 'Urban Shield'],
+    heroImage: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'inside-drop-001',
+    title: 'Inside Drop 001',
+    subtitle: 'An intimate technical breakdown of our debut collection, from cellular polymer soles to taped membranes.',
+    category: 'Engineering',
+    date: 'OCT 2026',
+    readTime: '5 MIN READ',
+    author: 'MARCUS REID // MATERIAL ARCHITECT',
+    excerpt: 'Fourteen months of rapid prototyping, forty material iterations, and zero compromises. Here is how VOID RUNNER and PHANTOM SHELL came to life.',
+    content: [
+      'Fourteen months of intensive rapid prototyping, forty material iterations, and zero compromises. Drop 001 is the materialization of our core thesis: high-performance technical specifications balanced with experimental sculptural beauty.',
+      'The VOID RUNNER sneaker required pioneering a dual-density midsole matrix that absorbs heel strikes while providing mechanical propulsion at the forefoot. The external TPU cage locks the midfoot without restricting natural ankle articulation.',
+      'Alongside it, the PHANTOM SHELL jacket pairs a 20,000mm hydrostatic waterproof membrane with an internal carry harness, allowing the wearer to transition seamlessly from torrential rain to overheated transit stations.',
+    ],
+    tags: ['Drop 001', 'Materials R&D', 'Technical Prototyping'],
+    heroImage: 'https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=800&q=80',
+  },
+];
